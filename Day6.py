@@ -22,3 +22,19 @@ if a == b:
     print("it is palindrome")
 else:
     print("its is not palindrome")
+
+# While loopes questions.
+# Accept a number and print its reverse.
+
+a = int(input("Enter a number here :  "))
+rev = 0
+while a > 0:
+    rev = rev * 10 + a % 10
+    a = a // 10
+print(rev)
+
+# separate each digit of a number and print it on the new line.
+a = int(input("Enter a number here : "))
+while a > 0:121
+    print(a % 10)
+    a = a // 10
