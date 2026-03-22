@@ -24,3 +24,5 @@ while True:
             print("⬆️ Go a little higher")
     except ValueError:
         print("❌ Please enter a valid number")
+
+# Generate a random number and create a game using while loop.
