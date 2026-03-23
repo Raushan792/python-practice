@@ -10,3 +10,5 @@ for i in range(b):
     result = result * a
 
 print("Answer:", result)
+
+# seconnd Question.
