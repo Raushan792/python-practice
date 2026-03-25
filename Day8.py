@@ -24,3 +24,16 @@ for i in range(len(l)):
         index = i
 
 print(f"Your largest number is {largest} at index {index}")
+
+# Question 3.
+# Find the second greatest elements.
+l = [12,34,56,23,77,87,82]
+largest = l[0]
+sec_largest = l[0]
+for i in l:
+    if i > largest:
+        sec_largest = largest
+        largest = i
+    elif i > sec_largest:
+        sec_largest = i
+print(sec_largest,largest)
