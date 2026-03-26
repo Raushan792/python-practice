@@ -21,4 +21,18 @@
      for i in range(len(a)-1-j):
          if a[i] < a[i+1]:
              a[i],a[i+1] = a[i+1],a[i]
- print(a)            
+ print(a)
+
+# Question 3.
+# selection sort.
+
+a = [2,33,454,744,3,45,63,15,25,22,65,332,874]   
+
+for i in range(len(a)-1):
+    j = i+1
+    min = i
+    for k in range(j,len(a)):
+        if a[k] < a[min]:
+            min = k
+    a[i],a[min] = a[min],a[i]
+print(a)   
