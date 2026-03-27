@@ -15,3 +15,8 @@ print(index)
 b = (2,3,45,56,6,677,76,656,76,76,76,76)
 count = b.count(76)
 print(count)
+
+# Tuple unpacking.
+
+a,b,c,d = (2,3,4,5,)
+print(c)
