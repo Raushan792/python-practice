@@ -3,3 +3,9 @@
 a = (1,2,3,4,print(),6.43,"hello")
 for i in range (len(a)):
     print(a[i])
+
+# index finding.
+
+a = (2,3,45,56,6,677,76,656,76,76,76,76)
+index = a.index(56)
+print(index)
