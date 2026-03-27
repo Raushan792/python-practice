@@ -9,3 +9,9 @@ for i in range (len(a)):
 a = (2,3,45,56,6,677,76,656,76,76,76,76)
 index = a.index(56)
 print(index)
+
+# count tuple.
+
+b = (2,3,45,56,6,677,76,656,76,76,76,76)
+count = b.count(76)
+print(count)
