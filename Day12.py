@@ -1,5 +1,5 @@
 # Python Questions.
-# String method.
+# String methods.
 
 a = "AWS.ERR.BR.RCB.CSK"
 
