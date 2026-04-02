@@ -8,3 +8,9 @@ a = "AWS.ERR.BR.RCB.CSK"
 a = "AWS.ERR.BR.RCB.CSK"
 print(a.split("."))
 
+# 3. write a program to sort string alphabetically in python.
+a = input("Enter a number here :")
+b = sorted(a)
+print(b)
+
+
