@@ -10,3 +10,11 @@ f = "Hello 1234"
 g = "nikhil singh"
 h = " "
 i = "Hey My Name Is Roshan Singh"
+
+# isalnum - Return true if all characters in the string are alphanumeric.
+print(a,a.isalnum())
+print(b,b.isalnum())
+print(c,c.isalnum())
+print(d,d.isalnum())
+print(e,e.isalnum())
+print(f,f.isalnum())
