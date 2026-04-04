@@ -11,3 +11,6 @@ print(a,a.isdecimal())
 print(c,c.isdecimal())
 print(e,e.isdecimal())
 
+# isdigit - Return true if all characters in the string in the digit.
+print(b,b.isdigit())
+print(c,c.isdigit())
