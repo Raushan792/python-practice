@@ -18,3 +18,5 @@ print(c,c.isalnum())
 print(d,d.isalnum())
 print(e,e.isalnum())
 print(f,f.isalnum())
+
+#
