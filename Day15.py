@@ -13,3 +13,11 @@ print(b,b.isupper())
 print(c,c.isupper())
 print(d,d.isupper())
 print(e,e.isupper())
+
+# isspace - Return true if all characters in the string are the whitespace.
+print(a,a.isspace())
+print(b,b.isspace())
+print(c,c.isspace())
+print(d,d.isspace())
+print(e,e.isspace())
+print(h,h.isspace())
