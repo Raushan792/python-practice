@@ -21,3 +21,8 @@ print(c,c.isspace())
 print(d,d.isspace())
 print(e,e.isspace())
 print(h,h.isspace())
+
+# istitle - Return true if the string follows rules of the title.
+print(d,d.istitle())
+print(f,f.istitle())
+print(i,i.istitle())
