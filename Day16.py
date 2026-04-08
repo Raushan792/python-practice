@@ -24,3 +24,8 @@ p = "tree are so beautiful%india is great country"
 print(k.split("#"))
 print(m.split("."))
 print(p.split("%"))
+
+# l just - Returns a left justified version of the string.
+s = "proud to be Rajputana"
+x = s.ljust(8)
+print(x,"culture")
