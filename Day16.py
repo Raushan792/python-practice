@@ -12,3 +12,7 @@ print(b.startswith("m",13,16))
 # swap case() - Swap case , lower case becomes upper case and vise versa.
 c = "How Old Are You My Friend"
 print(c.swapcase())
+
+# strip () - Returns a trimmed version of the string.
+d = "******* Singh is King....... "
+print(d.strip("*,., "))
