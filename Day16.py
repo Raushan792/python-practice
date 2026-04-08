@@ -16,3 +16,11 @@ print(c.swapcase())
 # strip () - Returns a trimmed version of the string.
 d = "******* Singh is King....... "
 print(d.strip("*,., "))
+
+# split () - Split the string at the specified separator and return a list.
+k = "RCB#CSK#SRH#"
+m = "hello.my name is milan singh.i am 11 year old"
+p = "tree are so beautiful%india is great country"
+print(k.split("#"))
+print(m.split("."))
+print(p.split("%"))
