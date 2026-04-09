@@ -17,3 +17,9 @@ print(r.replace("hacker", "singh"))
 w = "Roshan Singh is a computer science student"
 print(w.rindex("computer science"))
 
+# rfind - search the string for a specified value and returns
+# the last position of where it was found.
+t = "i am a cricketer"
+print(t.rfind("am", 2,4))
+
+
